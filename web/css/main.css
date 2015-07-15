@@ -1,0 +1,90 @@
+body {
+  background-color: #d8d8d8;
+  margin: 0;
+  padding: 0;
+}
+
+article {
+  padding: 15px;
+}
+
+.page {
+  width: 930px;
+  background-color: #ffffff;
+  min-height: 500px;
+  margin: 0 auto;
+  padding: 5px;
+  border-radius: 15px;
+  box-shadow: 10px 10px 5px grey;
+}
+/* Top Menu */
+div.top-menu {
+  padding: 15px;
+}
+
+div.top-menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+} 
+
+div.top-menu ul li {
+  display: inline;
+}
+
+div.top-menu ul li a:hover,
+div.top-menu ul li a:active {
+  background-color:#7A991A;
+}
+
+div.top-menu ul li a,
+div.top-menu ul li span {
+  font-weight:bold;
+  color:#FFFFFF;
+  background-color:#98bf21;
+  text-align:center;
+  padding:4px;
+  text-decoration:none;
+  text-transform:uppercase;
+}
+
+/* Form */
+.formrow {
+  margin: 10px 0;
+  width: 575px;
+}
+
+.formrow input {
+  padding: 5px;
+}
+
+.formrow input[type=text],
+.formrow input[type=password] {
+  width: 350px;
+}
+
+.formrow label {
+  float: left;
+  width: 200px;
+  margin-top: 5px;
+}
+
+div.error {
+  border: 1px solid red;
+  padding: 3px;
+  margin: 3px 0;
+  background-color: yellow;
+  font-size: 12px;
+  font-family: arial;
+  color: #777777;
+}
+
+div.profilerow {
+  float: left;
+  margin-top: 5px;
+}
+
+.clearboth {
+  clear: both;
+}
+
